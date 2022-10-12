@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+.nav{
+    display: flex;
+    text-align: center;
+    background-color:darkred;
+    text-decoration: none;
+    height: 60px;
+}
+
+
+.nav ul{
+    margin-left: 50%;
+    font-size: large;
+    list-style:none ;
+    display: flex;
+    padding: 20px 0px;
+    
+
+}
+.nav ul li{width: 60px;
+
+}
+div.nav a{
+    margin-block-end:70px ;
+    font-size: xx-large;
+    text-align: center;
+    padding: 13px 0px;
+    color: black;
+    width:70px ;
+}
+.nav ul li:hover{background-color: darkgoldenrod;
+}
+.nav a:hover{
+    background-color: darkgoldenrod;
+    padding: 30px 15px;
+
+}
